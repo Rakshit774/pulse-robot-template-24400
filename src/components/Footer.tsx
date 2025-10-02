@@ -12,7 +12,7 @@ const Footer = () => {
               GitHub
             </a>
             <span className="text-gray-400">•</span>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-pulse-500 hover:underline text-sm">
+            <a href="https://www.linkedin.com/company/mozilla-phoenix-club/" target="_blank" rel="noopener noreferrer" className="text-pulse-500 hover:underline text-sm">
               LinkedIn
             </a>
           </div>
