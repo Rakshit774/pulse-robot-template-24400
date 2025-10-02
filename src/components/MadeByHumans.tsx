@@ -15,17 +15,34 @@ const MadeByHumans = () => {
             </span>
             </div>
             
-            <div style={{
-            overflow: "hidden",
-            maxHeight: "80px",
-            marginTop: "40px"
-          }}>
-              <h2 style={{
-              marginBottom: "-30px",
-              padding: "0px 0px 100px"
-            }} className="sm:text-5xl font-playfair text-white italic mt-0 mx-0 font-thin text-6xl md:text-7xl py-0 px-0 text-center lg:text-7xl">
-                Made By AI & Human
+            <div className="max-w-3xl">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-display text-white font-bold mb-4">
+                Join Our Community
               </h2>
+              <p className="text-lg sm:text-xl text-white/90 mb-6">
+                Be part of a vibrant community where students collaborate, contribute to real-world projects, and learn together. Share ideas, work on exciting projects, and grow your skills alongside passionate peers.
+              </p>
+              <a 
+                href="#get-access" 
+                className="inline-flex items-center justify-center group" 
+                style={{
+                  backgroundColor: '#FFFFFF',
+                  borderRadius: '1440px',
+                  boxSizing: 'border-box',
+                  color: '#FE5C02',
+                  cursor: 'pointer',
+                  fontSize: '14px',
+                  lineHeight: '20px',
+                  padding: '16px 24px',
+                  border: '1px solid white',
+                }}
+              >
+                Be a Part of the Community
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
             </div>
             
             {/* White box at the bottom with overflow */}

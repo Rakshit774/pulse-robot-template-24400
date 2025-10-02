@@ -3,16 +3,20 @@ import React from "react";
 const Footer = () => {
   return <footer className="w-full bg-white py-0">
       <div className="section-container">
-        <p className="text-center text-gray-600 text-sm">
-          This template takes inspiration from{" "}
-          <a href="https://x.com/BrettFromDJ" target="_blank" rel="noopener noreferrer" className="text-pulse-500 hover:underline">
-            DesignJoy's
-          </a>{" "}
-          BUILD WARS design, built entirely with Lovable by{" "}
-          <a href="https://x.com/rezaul_arif" target="_blank" rel="noopener noreferrer" className="text-pulse-500 hover:underline">
-            Rezaul Arif
-          </a>
-        </p>
+        <div className="text-center">
+          <p className="text-gray-600 text-sm mb-2">
+            © Mozilla JUET Club 2025. All rights reserved.
+          </p>
+          <div className="flex items-center justify-center gap-4">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-pulse-500 hover:underline text-sm">
+              GitHub
+            </a>
+            <span className="text-gray-400">•</span>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-pulse-500 hover:underline text-sm">
+              LinkedIn
+            </a>
+          </div>
+        </div>
       </div>
     </footer>;
 };
