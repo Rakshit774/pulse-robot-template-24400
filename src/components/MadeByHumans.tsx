@@ -6,16 +6,16 @@ const MadeByHumans = () => {
         {/* Removed the pulse-chip button/element that was here */}
         
         <div className="w-full rounded-2xl sm:rounded-3xl overflow-hidden relative mt-6 sm:mt-8">
-          <div className="bg-no-repeat bg-cover bg-center p-4 sm:p-5 min-h-[250px] sm:min-h-[350px] flex flex-col justify-between" style={{
+          <div className="bg-no-repeat bg-cover bg-center p-6 sm:p-8 min-h-[450px] sm:min-h-[500px] flex flex-col justify-between rounded-b-2xl sm:rounded-b-3xl" style={{
           backgroundImage: "url('/background-section3.png')"
         }}>
             <div className="flex items-center text-white">
-              <img src="/logo.svg" alt="Mozilla Logo" className="h-5 sm:h-6 w-auto mr-3 invert" />
+              <img src="/mozilla.jpg" alt="Mozilla Logo" className="h-10 sm:h-8 w-auto mr-3 invert" />
               <span className="text-white text-xl font-medium">
             </span>
             </div>
             
-            <div className="max-w-3xl">
+            <div className="max-w-3xl mb-8">
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-display text-white font-bold mb-4">
                 Join Our Community
               </h2>
@@ -23,7 +23,9 @@ const MadeByHumans = () => {
                 Be part of a vibrant community where students collaborate, contribute to real-world projects, and learn together. Share ideas, work on exciting projects, and grow your skills alongside passionate peers.
               </p>
               <a 
-                href="#get-access" 
+                href="https://www.instagram.com/mpcjuet/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center group" 
                 style={{
                   backgroundColor: '#FFFFFF',
@@ -44,9 +46,6 @@ const MadeByHumans = () => {
                 </svg>
               </a>
             </div>
-            
-            {/* White box at the bottom with overflow */}
-            <div className="w-[120%] bg-white h-10 rounded-t-lg absolute left-[-10%] bottom-0"></div>
           </div>
         </div>
       </div>

@@ -11,7 +11,7 @@ const Navbar = () => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 10);
     };
-    
+
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -27,7 +27,7 @@ const Navbar = () => {
       top: 0,
       behavior: 'smooth'
     });
-    
+
     // Close mobile menu if open
     if (isMenuOpen) {
       setIsMenuOpen(false);
@@ -55,9 +55,9 @@ const Navbar = () => {
           aria-label="Mozilla"
         >
           <img 
-            src="/logo.svg" 
+            src="/mozilla.jpg" 
             alt="Mozilla Logo"
-            className="h-7 sm:h-8" 
+            className="h-8 sm:h-9" 
           />
         </a>
 
@@ -74,7 +74,7 @@ const Navbar = () => {
             Home
           </a>
           <a href="#features" className="nav-link">About</a>
-          <a href="#details" className="nav-link">Contact</a>
+          {/* <a href="#details" className="nav-link">Contact</a> */}
         </nav>
 
         {/* Mobile menu button - increased touch target */}
