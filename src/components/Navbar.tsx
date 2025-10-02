@@ -52,11 +52,11 @@ const Navbar = () => {
             e.preventDefault();
             scrollToTop();
           }}
-          aria-label="Pulse Robot"
+          aria-label="Mozilla"
         >
           <img 
             src="/logo.svg" 
-            alt="Pulse Robot Logo" 
+            alt="Mozilla Logo"
             className="h-7 sm:h-8" 
           />
         </a>
