@@ -27,7 +27,7 @@ const SpecsSection = () => {
             Join us for Hacktoberfest 2025! Contribute to open source projects, win exciting prizes, and connect with fellow developers. Whether you're a beginner or experienced, everyone is welcome.
           </p>
           <a 
-            href="https://hacktoberfest.com/" 
+            href="https://events.mlh.io/events/13054-hacktoberfest-fest-by-mozilla-juet-x-gfg" 
             className="inline-flex items-center justify-center group" 
             style={{
               backgroundColor: '#FE5C02',
